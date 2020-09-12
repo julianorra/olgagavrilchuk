@@ -1,0 +1,5 @@
+/* название в шапке */
+    @media (max-width: 576px) { 
+        .title { 
+            font-size: 8vw;
+     }; 
