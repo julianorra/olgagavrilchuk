@@ -1,10 +1,15 @@
-/* название в шапке */
+
+ /* название в шапке */
 @media (max-width: 576px) { 
     .header__title { 
         font-size: 8vw;
-     }}; 
-/* почему стили на кнопке не работают */
- button {
-    margin: 0 10px;
-    transition: 0.3s;
-    };
+     }}
+ /* кнопки в контактах */
+.btn__wa, .btn__tg, .btn__mail {
+    margin: 5px;
+}
+
+
+
+
+
