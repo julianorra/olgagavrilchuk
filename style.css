@@ -1,5 +1,10 @@
 /* название в шапке */
-    @media (max-width: 576px) { 
-        .title { 
-            font-size: 8vw;
-     }; 
+@media (max-width: 576px) { 
+    .header__title { 
+        font-size: 8vw;
+     }}; 
+/* почему стили на кнопке не работают */
+ button {
+    margin: 0 10px;
+    transition: 0.3s;
+    };
