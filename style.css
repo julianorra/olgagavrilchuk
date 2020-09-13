@@ -4,8 +4,19 @@
     .header__title { 
         font-size: 8vw;
      }}
+
+.btn__about {
+    margin: 5px;
+}     
+
+.img__about {
+    height: 300px;
+    width: 300px;
+}
  /* кнопки в контактах */
-.btn__wa, .btn__tg, .btn__mail {
+.btn__wa,
+.btn__tg, 
+.btn__mail {
     margin: 5px;
 }
 

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
     <link rel="stylesheet" href="style.css">
     <title>Сбор средств</title>
   </head>
@@ -14,45 +15,78 @@
       <h1 class="text-center header__title">Сбор средств для помощи Ольге Гаврильчук в борьбе с раком</h1>
       <nav class="navbar d-none d-sm-block">
       <ul class="nav justify-content-center">
-          <li class="nav-item"><a class="navbar-brand" href="#">О нас</a></li>
-          <li class="nav-item"><a class="navbar-brand" href="#">Диагноз</a></li>
-          <li class="nav-item"><a class="navbar-brand" href="#">Медкарта</a></li>
-          <li class="nav-item"><a class="navbar-brand" href="#">Хочу помочь</a></li>
-          <li class="nav-item"><a class="navbar-brand" href="#">Контакты</a></li>
+          <li class="nav-item"><a class="navbar-brand" href="#about">О нас</a></li>
+          <li class="nav-item"><a class="navbar-brand" href="#diagnos">Диагноз</a></li>
+          <li class="nav-item"><a class="navbar-brand" href="#medcard">Медкарта</a></li>
+          <li class="nav-item"><a class="navbar-brand" href="#donation">Хочу помочь</a></li>
+          <li class="nav-item"><a class="navbar-brand" href="#contact">Контакты</a></li>
           <li class="nav-item"><a class="navbar-brand" href="#">FAQ</a></li>
       </ul>
     </nav>
     </header>
 <!-- screen 1-->
-    <section class="col-md-6 text-center">
-      <h2>Давайте знакомиться</h2>
-      <p>
-        Привет!
-        Эта страница создана для сбора средств на лечение моей мамы. Если Вы хотите помочь, можете обратиться по любому из указанных контактов или перейти к реквизитам. Мы ценим любую поддержку!
-      </p>
-      <button class="btn btn-light">Контакты</button>
-      <button class="btn btn-light">Реквизиты</button>
-  <!--    <img src="1stasmama.jpeg" class="col-md-6 float-md-right img-fluid" alt="Ольга со своим сыном"> -->
-    </section>
+<section class="about" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 text-center">
+        <h2>Давайте знакомиться</h2>
+        <p>
+          Привет!
+          Эта страница создана для сбора средств на лечение моей мамы. Если Вы хотите помочь, можете обратиться по любому из указанных контактов или перейти к реквизитам. Мы ценим любую поддержку!
+        </p>
+        <button class="btn btn-light btn__about"><a href="#contact">Контакты</a></button>
+        <button class="btn btn-light btn__about"><a href="#donation">Реквизиты</a></button> 
+      </div>
+
+      <div class="col-xl-6 text-center">
+        <img src="1stasmama.jpg" class="img__about" alt="Ольга со своим сыном"> 
+      </div>
+    </div> 
+
+  </div>
+</section>
    
 <!-- screen 2 диагноз-->
-    <section class="col-md-6 text-center">
-      <h2>Диагноз</h2>
-      <p>
-        Карцинома (рак) сигмовидной кишки (4 стадия) с метастазами в печень (2 стадия).
-      </p>
-    </section> 
+    <section class="diagnos" id="diagnos">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xl-6"> 
+            <img src="">
+          </div>
+
+          <div class="col-xl-6 text-center">
+            <h2>Диагноз</h2>
+            <p>
+              Карцинома (рак) сигмовидной кишки (4 стадия) с метастазами в печень (2 стадия).
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
 <!-- screen 3 медкарта-->
-<section class="col-xl-12 text-center">
-  <h2>Медкарта</h2>
-  <p> Пройдено 9 курсов химиотерапии, резекция сигмовидной кишки.</p>
-  <p>Не удаётся достигнуть стабилизации процессов в печени.</p>
+<section class="medcard" id="medcard">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-xl-8">
+        <h2>Медкарта</h2>
+        <p>
+          Пройдено 9 курсов химиотерапии, резекция сигмовидной кишки. Не удаётся достигнуть стабилизации процессов в печени.
+          <a href="#">Подробнее</a>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  
+
 </section> 
 <!-- screen 4 реквизиты-->
-  <section class="donation">
+  <section class="donation" id="donation">
     <div class="container">
 
-      <div class="row">
+      <div class="row justify-content-around">
       <!-- тинькоф-->
       <div class="col-xl-4 text-center">
         <img src="" alt="">
@@ -72,24 +106,25 @@
         <h3>ВТБ</h3>
         <p>МИР 2200 2408 6496 8173</p>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="col-xl-12">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
           <p class="text-center">
             Если Вы хотите помочь, но ни одна из платёжных систем не подходит, пожалуйста, свяжитесь с нами по любому из доступных контактов.
           </p>
         </div>
       </div>
-      </div>
+      
       </div>
     </section>
 
 <!-- screen 5 контакты-->
 
-<section class="contact">
+<section class="contact" id="contact">
   <div class="container">
   
-    <div class="row">
+    <div class="row justify-content-around">
       <!-- Whatsapp-->
       <div class="col-xl-4 text-center">
         <img src="" alt="">
@@ -103,9 +138,8 @@
       <!-- E-mail-->
       <div class="col-xl-4 text-center">
         <img src="" alt="">
-       <!-- <button class="btn btn btn-light"> -->
+
           <address class="btn btn-light btn__mail"><a href="mailto:ekmantaslaw@gmail.com">ekmantaslaw@gmail.com</a></address>
-      
       </div>
       </div>
 
@@ -113,7 +147,7 @@
   </section>
 
     <footer></footer>
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </body>
 </html>
 
