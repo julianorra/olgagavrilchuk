@@ -1,23 +1,39 @@
 
- /* название в шапке */
-@media (max-width: 576px) { 
-    .header__title { 
-        font-size: 8vw;
-     }}
-
-.btn__about {
-    margin: 5px;
-}     
-
-.img__about {
-    height: 300px;
-    width: 300px;
+* {
+    font-family: 'Montserrat', sans-serif;
 }
+.header__title {
+    margin-top: 15px;
+}
+.card {
+    border: 0;
+}
+
+.about {
+    margin: 15px 0;
+}
+.text__about {
+    background-color: #E6D8D7;
+}
+.btn__about a{
+    color: black;
+    margin: 5px;
+}
+.btn__about a:hover {
+    color:#E6D8D7;
+}     
+.img__donation {
+    height: 50px;
+    width: 165px;
+    margin-bottom: 10px;
+
+}
+
  /* кнопки в контактах */
 .btn__wa,
 .btn__tg, 
 .btn__mail {
-    margin: 5px;
+    margin: 5px 0;
 }
 
 

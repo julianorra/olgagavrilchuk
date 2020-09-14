@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
     <link rel="stylesheet" href="style.css">
     <title>Сбор средств</title>
@@ -12,8 +13,8 @@
 
   <body>
     <header>
-      <h1 class="text-center header__title">Сбор средств для помощи Ольге Гаврильчук в борьбе с раком</h1>
-      <nav class="navbar d-none d-sm-block">
+      <h1 class="text-center header__title">Fund-raising for mom</h1>
+      <nav class="navbar d-none d-sm-block navbar-light">
       <ul class="nav justify-content-center">
           <li class="nav-item"><a class="navbar-brand" href="#about">О нас</a></li>
           <li class="nav-item"><a class="navbar-brand" href="#diagnos">Диагноз</a></li>
@@ -23,48 +24,45 @@
           <li class="nav-item"><a class="navbar-brand" href="#">FAQ</a></li>
       </ul>
     </nav>
-    </header>
-<!-- screen 1-->
+    </header> 
+ <!--screen 1 -->
 <section class="about" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-6 text-center">
-        <h2>Давайте знакомиться</h2>
-        <p>
-          Привет!
-          Эта страница создана для сбора средств на лечение моей мамы. Если Вы хотите помочь, можете обратиться по любому из указанных контактов или перейти к реквизитам. Мы ценим любую поддержку!
-        </p>
-        <button class="btn btn-light btn__about"><a href="#contact">Контакты</a></button>
-        <button class="btn btn-light btn__about"><a href="#donation">Реквизиты</a></button> 
-      </div>
-
-      <div class="col-xl-6 text-center">
-        <img src="1stasmama.jpg" class="img__about" alt="Ольга со своим сыном"> 
-      </div>
-    </div> 
-
-  </div>
-</section>
-   
-<!-- screen 2 диагноз-->
-    <section class="diagnos" id="diagnos">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-xl-6"> 
-            <img src="">
-          </div>
-
-          <div class="col-xl-6 text-center">
-            <h2>Диагноз</h2>
-            <p>
-              Карцинома (рак) сигмовидной кишки (4 стадия) с метастазами в печень (2 стадия).
-            </p>
-          </div>
-
+  <div class="card mb-3" style="max-width: 1140px;">
+    <div class="row no-gutters">
+      <div class="col-sm-6 text__about">
+        <div class="card-body">
+          <h3 class="card-title">Давайте знакомиться</h3>
+          <p class="card-text">Привет!
+            Эта страница создана для сбора средств на лечение моей мамы. Если Вы хотите помочь, можете обратиться по любому из указанных контактов или перейти к реквизитам. Мы ценим любую поддержку!
+          </p>
+          <button type="button" class="btn btn-outline-secondary btn__about"><a href="#contact">Контакты</a></button>
+          <button type="button" class="btn btn-outline-secondary btn__about"><a href="#donation">Реквизиты</a></button> 
         </div>
       </div>
-    </section>
+      <div class="col-sm-6">
+        <img src="imgabout1.jpg" class="card-img" alt="...">
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- screen 2 диагноз-->
+<section class="diagnos" id="diagnos">
+  <div class="card mb-3" style="max-width: 1140px;">
+    <div class="row no-gutters">
+      <div class="col-sm-6">
+        <img src="imgdiagnos1.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-sm-6">
+        <div class="card-body">
+          <h3 class="card-title">Диагноз</h3>
+          <p class="card-text">Карцинома (рак) сигмовидной кишки (4 стадия) с метастазами в печень (2 стадия).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- screen 3 медкарта-->
 <section class="medcard" id="medcard">
   <div class="container">
@@ -89,21 +87,20 @@
       <div class="row justify-content-around">
       <!-- тинькоф-->
       <div class="col-xl-4 text-center">
-        <img src="" alt="">
-        <h3>Тинькофф</h3>
+        <img src="imgdonation1.png" class="img__donation"alt="">
+        
         <p>Mastercard 5536 9137 8373 9804</p>
         <p>Visa 4377 7237 4819 5454</p>
       </div>
       <!-- сбер-->
       <div class="col-xl-4 text-center">
-        <img src="" alt="">
-        <h3>Сбербанк</h3>
+        <img src="imgdonation2.png" class="img__donation"alt="">
         <p>Mastercard 5469 3800 3500 1196</p>
       </div>
       <!-- втб-->
       <div class="col-xl-4 text-center">
-        <img src="" alt="">
-        <h3>ВТБ</h3>
+        <img src="imgdonation3.png" class="img__donation"alt="">
+  
         <p>МИР 2200 2408 6496 8173</p>
       </div>
     </div>
@@ -120,7 +117,6 @@
     </section>
 
 <!-- screen 5 контакты-->
-
 <section class="contact" id="contact">
   <div class="container">
   
