@@ -18,15 +18,17 @@
       <ul class="nav justify-content-center">
           <li class="nav-item"><a class="navbar-brand" href="#about">О нас</a></li>
           <li class="nav-item"><a class="navbar-brand" href="#diagnos">Диагноз</a></li>
-          <li class="nav-item"><a class="navbar-brand" href="#medcard">Медкарта</a></li>
+          <li class="nav-item"><a class="navbar-brand" href="#">Медкарта</a></li>
           <li class="nav-item"><a class="navbar-brand" href="#donation">Хочу помочь</a></li>
           <li class="nav-item"><a class="navbar-brand" href="#contact">Контакты</a></li>
           <li class="nav-item"><a class="navbar-brand" href="#">FAQ</a></li>
       </ul>
     </nav>
     </header> 
- <!--screen 1 -->
+ <!--screen about -->
 <section class="about" id="about">
+  <div class="container">
+  <div class="col-xl-8"> 
   <div class="card mb-3" style="max-width: 1140px;">
     <div class="row no-gutters">
       <div class="col-sm-6 text__about">
@@ -44,83 +46,127 @@
       </div>
     </div>
   </div>
-</section>
-
-   <!-- screen 2 диагноз-->
-<section class="diagnos" id="diagnos">
-  <div class="card mb-3" style="max-width: 1140px;">
-    <div class="row no-gutters">
-      <div class="col-sm-6">
-        <img src="imgdiagnos1.jpg" class="card-img" alt="...">
-      </div>
-      <div class="col-sm-6">
-        <div class="card-body">
-          <h3 class="card-title">Диагноз</h3>
-          <p class="card-text">Карцинома (рак) сигмовидной кишки (4 стадия) с метастазами в печень (2 стадия).</p>
-        </div>
-      </div>
-    </div>
   </div>
+</div>
 </section>
 
-<!-- screen 3 медкарта-->
-<section class="medcard" id="medcard">
+<!-- screen удалось собрать-->
+
+<!-- screen диагноз-->
+<section class="diagnos" id="diagnos">
   <div class="container">
-    <div class="row text-center justify-content-center">
+    <div class="row justify-content-center">
       <div class="col-xl-8">
-        <h2>Медкарта</h2>
+        <h2>Диагноз и пройденное лечение</h2>
+        <p>Карцинома (рак) сигмовидной кишки (4 стадия) с метастазами в печень (2 стадия).</p>
         <p>
           Пройдено 9 курсов химиотерапии, резекция сигмовидной кишки. Не удаётся достигнуть стабилизации процессов в печени.
           <a href="#">Подробнее</a>
         </p>
-        
       </div>
     </div>
   </div>
-  
+</section>
 
-</section> 
-<!-- screen 4 реквизиты-->
+  <!-- screen необходимое лечение-->
+  <section class="reqtreat">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h2>Необходимое лечение</h2>
+          <p>Стабилизировать состояние:<br>
+          1. Убрать метастазы в печени при помощи радиочастотной аблации (остановить рост опухолей).<br>
+          2. Эмболизация с последующей резекцией печени в два этапа (поочерёдно удалить части печени с возможностью регенерации).
+        </p>
+        </div>
+      </div>
+    </div>
+  </section> 
+  
+     <!-- screen стоимость лечения-->
+  <section class="cost">
+    <div class="container"> 
+      <div class="row justify-content-center">
+      <h2 class="col-xl-8">Стоимость лечения</h2>
+     <div class="card-group col-xl-8">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Радиочастотная аблация</h5>
+          <p class="card-text">Количество процедур - минимум 4<br>
+            2 процедуры - 1800 - 2000 $</p>
+          <p class="card-text"><small class="text-muted">Approx. 300 000 RUB</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Резекция правой доли</h5>
+          <p class="card-text">Первый этап операции от 7000 до 15000$</p>
+          <p class="card-text"><small class="text-muted">Approx. 700 000 RUB</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Резекция левой доли</h5>
+          <p class="card-text">Второй этап операции от 7000 - 15000$</p>
+          <p class="card-text"><small class="text-muted">Approx. 700 000 RUB</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+
+<!-- screen реквизиты-->
   <section class="donation" id="donation">
     <div class="container">
 
-      <div class="row justify-content-around">
-      <!-- тинькоф-->
-      <div class="col-xl-4 text-center">
-        <img src="imgdonation1.png" class="img__donation"alt="">
-        
-        <p>Mastercard 5536 9137 8373 9804</p>
-        <p>Visa 4377 7237 4819 5454</p>
+      <div class="row justify-content-center">
+        <h2 class="col-xl-8">Реквизиты</h2>
+       <div class="card-group col-xl-8">
+         <!-- тинькоф-->
+        <div class="card">
+          <img src="imgdonation1.png" class="img__donation"alt="">
+          <div class="card-body">
+            <p class="card-text">4377 7237 4819 5454<br>Visa</p>
+            <p class="card-text"><small class="text-muted">Получатель:</small></p>
+          </div>
+        </div>
+        <!-- сбер-->
+        <div class="card">
+          <img src="imgdonation2.png" class="img__donation"alt="">
+          <div class="card-body">
+            <p class="card-text">5469 3800 3500 1196<br>Mastercard</p>
+            <p class="card-text"><small class="text-muted">Получатель:</small></p>
+          </div>
+        </div>
+         <!-- втб-->
+        <div class="card">
+          <img src="imgdonation3.png" class="img__donation"alt="">
+          <div class="card-body">
+            <p class="card-text">2200 2408 6496 8173<br>МИР</p>
+            <p class="card-text"><small class="text-muted">Получатель:</small></p>
+          </div>
+        </div>
       </div>
-      <!-- сбер-->
-      <div class="col-xl-4 text-center">
-        <img src="imgdonation2.png" class="img__donation"alt="">
-        <p>Mastercard 5469 3800 3500 1196</p>
       </div>
-      <!-- втб-->
-      <div class="col-xl-4 text-center">
-        <img src="imgdonation3.png" class="img__donation"alt="">
-  
-        <p>МИР 2200 2408 6496 8173</p>
-      </div>
-    </div>
 
       <div class="row justify-content-center">
-        <div class="col-xl-8">
+        <div class="col-xl-6">
           <p class="text-center">
-            Если Вы хотите помочь, но ни одна из платёжных систем не подходит, пожалуйста, свяжитесь с нами по любому из доступных контактов.
+            Если Вы хотите помочь, но ни одна из платёжных систем не подходит, пожалуйста, свяжитесь с нами по любому из доступных контактов:
           </p>
         </div>
       </div>
-      
-      </div>
-    </section>
 
-<!-- screen 5 контакты-->
+    </div>
+  </section>
+
+<!-- screen контакты-->
 <section class="contact" id="contact">
   <div class="container">
   
-    <div class="row justify-content-around">
+    <div class="row justify-content-center">
       <!-- Whatsapp-->
       <div class="col-xl-4 text-center">
         <img src="" alt="">
@@ -134,13 +180,38 @@
       <!-- E-mail-->
       <div class="col-xl-4 text-center">
         <img src="" alt="">
-
-          <address class="btn btn-light btn__mail"><a href="mailto:ekmantaslaw@gmail.com">ekmantaslaw@gmail.com</a></address>
+        <address class="btn btn-light btn__mail"><a href="mailto:ekmantaslaw@gmail.com">ekmantaslaw@gmail.com</a></address>
       </div>
-      </div>
-
     </div>
-  </section>
+
+  </div>
+</section>
+
+<!-- screen faq-->
+
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8">
+
+        <h2>FAQ</h2>
+        <h4>Могу ли я быть уверен в том, что денежные средства потратились на нужды больного?</h4>
+        <p>
+          Мы придерживаемся принципа абсолютной прозрачности. Вся отчётная документация о поступлении денежных средств и расходах будет отображена на сайте и по ссылке.
+          <a href="https://clck.ru/QndHF">Подробнее</a>
+          <br class="card-text"><small class="text-muted">Информация обновляется каждый час</small>
+        </p>
+        <h4>Cколько я могу пожертвовать?</h4>
+        <p>Большие дела начинаются с малого. Мы будем благодарны независимо от суммы пожертвования, будь то рубль или сто тысяч.</p>
+        <h4>Чем «fund-raising for mom» отличается от других организаций?</h4>
+        <p>Мы не являемся фондом или благотворительной организацией. Наша цель - собрать средства для лечения моей мамы. Независимо от результатов лечения остаток средств будет передан фондам борьбы с онкологией.</p>
+        <h4>Если я сделаю пожертвование, могу ли я решить, на что будут использованы мои деньги?</h4>
+        <p>Вы получите доступ к отчётной документации, однако распоряжаться добровольно пожертвованными средствами не сможете. Мы гарантируем, что все дотации будут использованы только в рамках лечения.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
 
     <footer></footer>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
