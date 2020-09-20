@@ -4,11 +4,11 @@
 }
 .header__title {
     margin-top: 15px;
+    text-transform: uppercase;
 }
 .card {
     border: 0;
 }
-
 .about {
     margin: 15px 0;
 }
