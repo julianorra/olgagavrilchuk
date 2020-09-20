@@ -1,35 +1,48 @@
-
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
 .header__title {
     margin-top: 15px;
 }
+
 .card {
     border: 0;
 }
 
+/********* ABOUT START ************/
+
 .about {
     margin: 15px 0;
 }
+
+.about .container {
+    display: flex;
+    justify-content: center;
+}
+
 .text__about {
     background-color: #E6D8D7;
 }
-.btn__about a{
+
+.btn__about a {
     color: black;
     margin: 8px;
 }
+
 .btn__about a:hover {
     color:#E6D8D7;
-}     
+}
+
+/********* ABOUT END ************/
+
 .img__donation {
     height: 50px;
     width: 165px;
     margin-bottom: 10px;
-
 }
 
- /* кнопки в контактах */
+/* кнопки в контактах */
 .btn__wa,
 .btn__tg, 
 .btn__mail {
