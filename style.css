@@ -3,12 +3,16 @@
 }
 
 .header__title {
-    margin-top: 15px;
     text-transform: uppercase;
 }
 
 .card {
     border: 0;
+}
+
+.lang-panel {
+    padding: 12px 12px 8px;
+    text-align: end;
 }
 
 /********* ABOUT START ************/
