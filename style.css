@@ -10,6 +10,16 @@
     border: 0;
 }
 
+@media (min-width: 575px) {
+    .card:first-child .card-body {
+        padding-left: 0;
+    }
+    
+    .card:last-child .card-body {
+        padding-right: 0;
+    }
+}
+
 .lang-panel {
     padding: 12px 12px 8px;
     text-align: end;
