@@ -10,12 +10,14 @@
     border: 0;
 }
 
-.card:first-child .card-body {
-    padding-left: 0;
-}
-
-.card:last-child .card-body {
-    padding-right: 0;
+@media (min-width: 575px) {
+    .card:first-child .card-body {
+        padding-left: 0;
+    }
+    
+    .card:last-child .card-body {
+        padding-right: 0;
+    }
 }
 
 .lang-panel {
