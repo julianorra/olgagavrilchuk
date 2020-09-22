@@ -1,0 +1,25 @@
+{
+  "name": "olgagavrilchuk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianorra/olgagavrilchuk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianorra/olgagavrilchuk/issues"
+  },
+  "homepage": "https://github.com/julianorra/olgagavrilchuk#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
