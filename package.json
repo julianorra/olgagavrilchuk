@@ -4,7 +4,8 @@
   "private": true,
   "description": "",
   "scripts": {
-    "start": "lite-server"
+    "start": "lite-server",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,10 +17,8 @@
     "url": "https://github.com/julianorra/olgagavrilchuk/issues"
   },
   "homepage": "https://github.com/julianorra/olgagavrilchuk#readme",
-  "dependencies": {
-    "lite-server": "^2.5.4"
-  },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "lite-server": "^2.5.4"
   }
 }
