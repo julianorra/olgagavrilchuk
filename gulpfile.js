@@ -1,6 +1,13 @@
-function defaultTask(cb) {
-    // place code for your default task here
-    cb();
-  }
-  
-  exports.default = defaultTask
+const { series } = require("gulp");
+
+// It can also be used within the `series()` composition.
+function build(cb) {
+	// body omitted
+
+	return src('*.js')
+    .pipe(dest('dist'));
+
+	cb();
+}
+	
+exports.default = series(build);
