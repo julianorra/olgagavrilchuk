@@ -4,8 +4,8 @@
   "private": true,
   "description": "",
   "scripts": {
-    "start": "lite-server",
-    "gulp": "gulp"
+    "start": "lite-server --baseDir='./src/'",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
