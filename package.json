@@ -19,6 +19,7 @@
   "homepage": "https://github.com/julianorra/olgagavrilchuk#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.2",
     "lite-server": "^2.5.4"
   }
 }

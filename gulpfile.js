@@ -1,13 +1,8 @@
-const { series } = require("gulp");
+const { src, dest } = require('gulp');
+const zip = require('gulp-zip');
 
-// It can also be used within the `series()` composition.
-function build(cb) {
-	// body omitted
-
-	return src('*.js')
-    .pipe(dest('dist'));
-
-	cb();
+exports.default = function() {
+	return src('./src/*')
+		.pipe(zip('build.zip'))
+		.pipe(dest('dist'));
 }
-	
-exports.default = series(build);
